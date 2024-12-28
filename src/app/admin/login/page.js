@@ -23,7 +23,7 @@ const page = () => {
 
   return (
     <div className="bg-gray-200 w-full min-h-screen flex items-center justify-center">
-      <div className="flex flex-col w-[80%] md:w-[50%] lg:[45%] xl:w-[35%] mx-auto bg-white px-9 py-10">
+      <div className="flex flex-col w-[90%] md:w-[50%] lg:[45%] xl:w-[35%] mx-auto bg-white px-9 py-10">
         <div className="flex w-full items-center justify-center pb-4">
           <div className=" h-14 w-14 rounded-full flex items-center justify-center bg-purple-600">
             <MdOutlineAdminPanelSettings size={35} color="white" />
