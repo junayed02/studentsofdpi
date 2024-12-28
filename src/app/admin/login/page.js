@@ -39,7 +39,7 @@ const page = () => {
           }
         />
         <input
-          type="text"
+          type="password"
           className="outline-none h-12 rounded-full border-2 placeholder:text-sm bg-transparent border-black px-6 my-8"
           placeholder="Enter your Password"
           onChange={(e) =>
