@@ -88,7 +88,7 @@ const Notice = ({ allNotice }) => {
   return (
     <div>
       {isClient && isAdmin && (
-        <div className="absolute flex flex-col items-end gap-1 top-7 right-3 sm:right-8 md:right-12 lg:right-14 lg:right-18 xl:right-20">
+        <div className="absolute flex flex-col items-end gap-1 top-[70px] right-3 sm:right-8 md:right-12 lg:right-14 lg:right-18 xl:right-20">
           <div
             className="h-10 w-10 rounded-full bg-purple-600 flex items-center justify-center cursor-pointer text-white font-semibold"
             onClick={() => setLogOutBtn(!logoutBtn)}
