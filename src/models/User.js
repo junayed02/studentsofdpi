@@ -11,7 +11,7 @@ const UserSchema = mongoose.Schema({
   Blood: String,
   Skills: String,
   Reg: String,
-  Phone: Number,
+  Phone: String,
   Email:String
 });
 
