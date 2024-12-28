@@ -3,7 +3,7 @@ import Container from "@/components/Container";
 import Navbar from "@/components/navbar/Navbar";
 import Notice from "@/components/notice";
 const getNotice = async () => {
-  const fetchRequest = await fetch(`http://${process.env.API_URL}/api/dashboardview`, {
+  const fetchRequest = await fetch(`${process.env.API_URL}/api/dashboardview`, {
     method: "GET",
     cache: "no-store",
   });

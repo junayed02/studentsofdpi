@@ -2,7 +2,7 @@ import Container from "@/components/Container";
 import Students from "@/components/view/Students";
 
 const fullViewFetch = async () => {
-  const fetchRequest = await fetch(`http://${process.env.API_URL}/api/view`, {
+  const fetchRequest = await fetch(`${process.env.API_URL}/api/view`, {
     method: "GET",
     cache: "no-store",
   });

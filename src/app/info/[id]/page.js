@@ -4,7 +4,7 @@ import notFound from "@/app/not-found";
 
 const myData = async (currentId) => {
   const fetchRequest = await fetch(
-    `http://${process.env.API_URL}/api/view?id=${currentId}`,
+    `${process.env.API_URL}/api/view?id=${currentId}`,
     {
       method: "GET",
       cache: "no-store",
