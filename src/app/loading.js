@@ -27,7 +27,7 @@ const LoadingPage = () => {
 
   return (
     <div>
-      <h1>Your content has loaded!</h1>
+      <h1 className="flex h-screen w-full bg-gray-200 text-purple-600 text-lg">Your content has loaded..!</h1>
     </div>
   );
 };
