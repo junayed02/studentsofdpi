@@ -44,7 +44,7 @@ const page = () => {
         <div className="bg-white py-10 order-2">
           <h1 className="pb-12 text-4xl text-center">Sign Up</h1>
           <form
-            className="flex flex-col w-[80%] mx-auto"
+            className="flex flex-col w-[85%] mx-auto"
             onSubmit={handleSubmit}
           >
             <label>Phone Number</label>

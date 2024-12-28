@@ -53,13 +53,13 @@ const page = () => {
         className={
           logReturnMessage !== null
             ? "opacity-0"
-            : "grid grid-cols-1 md:grid-cols-2 w-[80%] xl:w-[65%]  h-auto"
+            : "grid grid-cols-1 md:grid-cols-2 w-[90%] xl:w-[65%]  h-auto"
         }
       >
         <div className="bg-white py-10">
           <h1 className="pb-12 text-4xl text-center">Sign In</h1>
           <form
-            className="flex flex-col w-[80%] mx-auto"
+            className="flex flex-col w-[85%] mx-auto"
             onSubmit={handleSubmit}
           >
             <label>Phone Number</label>
