@@ -38,7 +38,7 @@ const page = () => {
         className={
           returnMessage !== null
             ? "opacity-0"
-            : "grid grid-cols-1 md:grid-cols-2 w-[80%] xl:w-[65%]  h-auto"
+            : "grid grid-cols-1 md:grid-cols-2 w-[90%] xl:w-[65%] h-auto"
         }
       >
         <div className="bg-white py-10 order-2">
