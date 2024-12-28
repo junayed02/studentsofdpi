@@ -86,7 +86,7 @@ const ViewPage = ({ details, myId }) => {
               </div>
               <div>
                 <span className="font-semibold text-xl pr-6">Phone:</span>{" "}
-                {details?.Phone}
+                0{details?.Phone}
               </div>
               <div>
                 <span className="font-semibold text-xl pr-6">Email:</span>{" "}
