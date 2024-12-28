@@ -45,7 +45,7 @@ const ViewPage = ({ details, myId }) => {
   if ((isLogIn && currentId === myId) || isAdmin) {
     return (
       <div className="w-full min-h-screen bg-gray-200 relative">
-        {!isAdmin&&<div className="absolute flex flex-col items-end gap-1 top-16 right-3 sm:right-8 md:right-12 lg:right-14 lg:right-18 xl:right-20">
+        {!isAdmin&&<div className="absolute flex flex-col items-end gap-1 top-[70px] right-3 sm:right-8 md:right-12 lg:right-14 lg:right-18 xl:right-20">
           <div
             className="h-10 w-10 rounded-full bg-purple-600 flex items-center justify-center cursor-pointer text-white font-semibold"
             onClick={() => setLogOutBtn(!logoutBtn)}
