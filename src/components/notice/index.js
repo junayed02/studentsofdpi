@@ -146,7 +146,7 @@ const Notice = ({ allNotice }) => {
 
       {popup && (
         <div className="min-h-screen w-full fixed top-0 left-0 bg-gray-200 z-[999] flex items-center justify-center">
-          <div className="flex flex-col w-[80%] md:w-[50%] lg:[45%] xl:w-[35%] mx-auto bg-white px-9 py-10 relative">
+          <div className="flex flex-col w-[90%] md:w-[50%] lg:[45%] xl:w-[35%] mx-auto bg-white px-9 py-10 relative">
             <div
               className="absolute top-5 right-8 cursor-pointer"
               onClick={popUpHandle}
@@ -185,7 +185,7 @@ const Notice = ({ allNotice }) => {
         {allNotice?.map((item, index) => (
           <div
             key={index}
-            className="w-[80%] md:w-[40%] lg:w-[30%] bg-white shadow-[2px_2px_5px_black] px-8 py-2 rotate-12"
+            className="w-[90%] md:w-[40%] lg:w-[30%] bg-white shadow-[2px_2px_5px_black] px-8 py-2 rotate-12"
           >
             <div className="flex justify-center py-4">
               <MdNetworkPing size={30} color="#9333EA" />
