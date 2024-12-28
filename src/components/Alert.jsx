@@ -9,7 +9,7 @@ const Alert = ({
 }) => {
   return (
     <div className="fixed min-h-screen w-full top-0 left-0 flex items-center justify-center bg-transparent">
-      <div className="w-[95%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] h-48 sm:h-40 shadow-2xl bg-white text-purple-600 flex flex-col gap-5 items-center justify-center p-10">
+      <div className="w-[95%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] h-auto shadow-2xl bg-white text-purple-600 flex flex-col gap-5 items-center justify-center p-10">
         <h1>{returnMessage?.message}</h1>
         <h1>{logReturnMessage?.message}</h1>
         <div className="flex w-full justify-around">
